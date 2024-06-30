@@ -120,7 +120,7 @@ if len(BIN_CHANNEL) == 0:
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "https://58392-3000.2.codesphere.com/")
+URL = environ.get("URL", "http://purplestreambot-mrblackgod.koyeb.app")
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
